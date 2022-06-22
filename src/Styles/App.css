@@ -1,0 +1,35 @@
+body {
+  background-color: #897a71 ;
+}
+.Navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #0e2c40;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Link {
+  display: flex;
+  padding: 10px;
+  transition: 0.3s;
+}
+.Link:hover {
+  transform: scale(1.05, 1.05);
+  background-color: #0d304f;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+.LinkLink {
+  text-decoration: none;
+  color: #cad4c2;
+  text-align: center;
+  font-size: large;
+}
+
+.botonInicio {
+  width: 40px;
+  height: 40px;
+}
